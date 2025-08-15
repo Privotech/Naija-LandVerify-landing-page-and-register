@@ -41,7 +41,7 @@ const LANDlandingpage = () => {
                     <h2 className="text-center mb-5 fw-bold fs-1 text-success">Why Choose NaijaLand?</h2>
                     <div className="row g-4">
                         <div className="col-md-4">
-                            <div className="card h-100 shadow-lg border-0 animate__animated animate__zoomIn">
+                            <div className="card h-100 shadow-lg border-0 animate__animated animate__fadeInTopRight animate__delay-0s">
                                 <div className="card-body text-center">
                                     <div className="display-1 mb-3 text-success">🔒</div>
                                     <h3 className="card-title mb-2">Secure Verification</h3>
@@ -50,7 +50,7 @@ const LANDlandingpage = () => {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="card h-100 shadow-lg border-0 animate__animated animate__zoomIn animate__delay-1s">
+                            <div className="card h-100 shadow-lg border-0 animate__animated animate__zoomI animate__delay-1s">
                                 <div className="card-body text-center">
                                     <div className="display-1 mb-3 text-success">⚡</div>
                                     <h3 className="card-title mb-2">Fast Registration</h3>
@@ -59,7 +59,7 @@ const LANDlandingpage = () => {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="card h-100 shadow-lg border-0 animate__animated animate__zoomIn animate__delay-2s">
+                            <div className="card h-100 shadow-lg border-0 animate__animated animate__bounceInRight animate__delay-2s">
                                 <div className="card-body text-center">
                                     <div className="display-1 mb-3 text-success">🤝</div>
                                     <h3 className="card-title mb-2">Legal Support</h3>
@@ -79,7 +79,7 @@ const LANDlandingpage = () => {
                             <div className="p-5 rounded shadow-lg text-center">
                                 <h2 className="mb-4 fw-bold text-success">Court Session</h2>
                                 <p className="mb-4 fs-5">Join our virtual court session for land dispute resolution and legal advice.</p>
-                                <button className="btn btn-primary btn-lg animate__animated animate__bounce">Join Court Session</button>
+                                <Link to="/Court" className="btn btn-primary btn-lg animate__animated animate__bounce">Join Court Session</Link>
                             </div>
                         </div>
                     </div>
