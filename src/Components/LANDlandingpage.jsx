@@ -71,7 +71,7 @@ const LANDlandingpage = () => {
                 </div>
             </section>
 
-            {/* Court Session Section */}
+            
             <section className="py-5 bg-white animate__animated animate__fadeInUp" id="court">
                 <div className="container">
                     <div className="row justify-content-center">
@@ -86,7 +86,7 @@ const LANDlandingpage = () => {
                 </div>
             </section>
 
-            {/* Animated Statistics Section */}
+            
             <section className="py-5 bg-light animate__animated animate__fadeInUp">
                 <div className="container">
                     <h2 className="text-center mb-5 fw-bold fs-1 text-success">Our Impact</h2>
@@ -111,7 +111,7 @@ const LANDlandingpage = () => {
                 </div>
             </section>
 
-            {/* Testimonials Section */}
+            
             <section className="py-5 bg-white animate__animated animate__fadeInUp">
                 <div className="container">
                     <h2 className="text-center mb-5 fw-bold fs-1 text-success">Testimonials</h2>
@@ -144,7 +144,7 @@ const LANDlandingpage = () => {
                 </div>
             </section>
 
-            {/* FAQ Section */}
+            
             <section className="py-5 bg-light animate__animated animate__fadeInUp">
                 <div className="container">
                     <h2 className="text-center mb-5 fw-bold fs-1 text-success">Frequently Asked Questions</h2>
@@ -183,7 +183,7 @@ const LANDlandingpage = () => {
                 </div>
             </section>
 
-            {/* Team Section */}
+            
             <section className="py-5 bg-white animate__animated animate__fadeInUp">
                 <div className="container">
                     <h2 className="text-center mb-5 fw-bold fs-1 text-success">Meet the Team</h2>
@@ -220,7 +220,7 @@ const LANDlandingpage = () => {
             </section>
 
 
-            {/* Newsletter Signup Section */}
+            
             <section className="py-5 bg-white animate__animated animate__fadeInUp">
                 <div className="container">
                     <h2 className="text-center mb-4 fw-bold fs-1 text-success">Stay Updated</h2>
@@ -235,7 +235,7 @@ const LANDlandingpage = () => {
                 </div>
             </section>
 
-            {/* Map Section */}
+            
             <section className="py-5 bg-light animate__animated animate__fadeInUp">
                 <div className="container">
                     <h2 className="text-center mb-4 fw-bold fs-1 text-success">Registered Lands Map</h2>
@@ -256,7 +256,7 @@ const LANDlandingpage = () => {
                 </div>
             </section>
 
-            {/* Contact Form Section */}
+            
             <section className="py-5 bg-white animate__animated animate__fadeInUp">
                 <div className="container">
                     <h2 className="text-center mb-4 fw-bold fs-1 text-success">Contact Us</h2>
@@ -273,7 +273,7 @@ const LANDlandingpage = () => {
                 </div>
             </section>
 
-            {/* Footer */}
+            
             <footer className="bg-success text-white py-5 mt-5 animate__animated animate__fadeInUp" id="footer">
                 <div className="container">
                     <div className="row">

@@ -35,32 +35,6 @@ const Court = () => {
                 <p style={{ fontSize: '1.2rem', fontWeight: 400, animation: 'fadeIn 2s' }}>Get help with your land, hire a lawyer, and book a court easily.</p>
             </header>
 
-            <section className="fade-in glass-bg" style={{ maxWidth: '900px', margin: '2rem auto', borderRadius: '24px', boxShadow: '0 8px 32px #3182ce22', padding: '2.5rem 2rem', position: 'relative', zIndex: 1 }}>
-                <h2 className="gradient-text" style={{ marginBottom: '1rem', fontWeight: 700, fontSize: '2rem' }}>What We Do</h2>
-                <div style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap' }}>
-                    <div className="card" style={{ flex: 1, minWidth: '250px', borderRadius: '18px', padding: '2rem 1.5rem', marginBottom: '1rem', boxShadow: '0 4px 16px #3182ce22', textAlign: 'center', position: 'relative' }}>
-                        <span className="icon" role="img" aria-label="court">⚖️</span>
-                        <h3 className="gradient-text" style={{ fontWeight: 600 }}>Courts</h3>
-                        <p style={{ color: '#4a5568', fontWeight: 500 }}>
-                            We work with trusted courts. You can book a session for your land issue. We help you with the steps.
-                        </p>
-                    </div>
-                    <div className="card" style={{ flex: 1, minWidth: '250px', borderRadius: '18px', padding: '2rem 1.5rem', marginBottom: '1rem', boxShadow: '0 4px 16px #3182ce22', textAlign: 'center', position: 'relative' }}>
-                        <span className="icon" role="img" aria-label="lawyer">👨‍⚖️</span>
-                        <h3 className="gradient-text" style={{ fontWeight: 600 }}>Lawyers</h3>
-                        <p style={{ color: '#4a5568', fontWeight: 500 }}>
-                            Find and hire a good lawyer for your land case. Our lawyers are friendly and ready to help you.
-                        </p>
-                    </div>
-                    <div className="card" style={{ flex: 1, minWidth: '250px', borderRadius: '18px', padding: '2rem 1.5rem', marginBottom: '1rem', boxShadow: '0 4px 16px #3182ce22', textAlign: 'center', position: 'relative' }}>
-                        <span className="icon" role="img" aria-label="document">📄</span>
-                        <h3 className="gradient-text" style={{ fontWeight: 600 }}>Land Documents</h3>
-                        <p style={{ color: '#4a5568', fontWeight: 500 }}>
-                            Upload your land papers. We check them and help you get ready for court or lawyer meetings.
-                        </p>
-                    </div>
-                </div>
-            </section>
 
             <section className="fade-in glass-bg" style={{ maxWidth: '900px', margin: '2rem auto', borderRadius: '24px', boxShadow: '0 8px 32px #3182ce22', padding: '2.5rem 2rem', position: 'relative', zIndex: 1 }}>
                 <h2 className="gradient-text" style={{ marginBottom: '1rem', fontWeight: 700, fontSize: '2rem' }}>Get Started</h2>
@@ -104,15 +78,6 @@ const Court = () => {
                 )}
             </section>
 
-            <section className="fade-in glass-bg" style={{ maxWidth: '900px', margin: '2rem auto', borderRadius: '24px', boxShadow: '0 8px 32px #3182ce22', padding: '2.5rem 2rem', position: 'relative', zIndex: 1 }}>
-                <h2 className="gradient-text" style={{ marginBottom: '1rem', fontWeight: 700, fontSize: '2rem' }}>Questions?</h2>
-                <ul style={{ paddingLeft: '1.2rem', fontSize: '1.1rem', color: '#4a5568', fontWeight: 500 }}>
-                    <li>How do I hire a lawyer?</li>
-                    <li>What papers do I need for court?</li>
-                    <li>Can I change my court date?</li>
-                    <li>How much does it cost?</li>
-                </ul>
-            </section>
 
             <section className="fade-in glass-bg" style={{ maxWidth: '900px', margin: '2rem auto', borderRadius: '24px', boxShadow: '0 8px 32px #3182ce22', padding: '2.5rem 2rem', position: 'relative', zIndex: 1 }}>
                 <h2 className="gradient-text" style={{ marginBottom: '1rem', fontWeight: 700, fontSize: '2rem' }}>What People Say</h2>
