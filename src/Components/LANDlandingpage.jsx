@@ -41,7 +41,7 @@ const LANDlandingpage = () => {
                     <h2 className="text-center mb-5 fw-bold fs-1 text-success">Why Choose NaijaLand?</h2>
                     <div className="row g-4">
                         <div className="col-md-4">
-                            <div className="card h-100 shadow-lg border-0 animate__animated animate__zoomIn">
+                            <div className="card h-100 shadow-lg border-0 animate__animated animate__fadeInTopRight animate__delay-0s">
                                 <div className="card-body text-center">
                                     <div className="display-1 mb-3 text-success">🔒</div>
                                     <h3 className="card-title mb-2">Secure Verification</h3>
@@ -50,7 +50,7 @@ const LANDlandingpage = () => {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="card h-100 shadow-lg border-0 animate__animated animate__zoomIn animate__delay-1s">
+                            <div className="card h-100 shadow-lg border-0 animate__animated animate__zoomI animate__delay-1s">
                                 <div className="card-body text-center">
                                     <div className="display-1 mb-3 text-success">⚡</div>
                                     <h3 className="card-title mb-2">Fast Registration</h3>
@@ -59,7 +59,7 @@ const LANDlandingpage = () => {
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="card h-100 shadow-lg border-0 animate__animated animate__zoomIn animate__delay-2s">
+                            <div className="card h-100 shadow-lg border-0 animate__animated animate__bounceInRight animate__delay-2s">
                                 <div className="card-body text-center">
                                     <div className="display-1 mb-3 text-success">🤝</div>
                                     <h3 className="card-title mb-2">Legal Support</h3>
@@ -71,7 +71,7 @@ const LANDlandingpage = () => {
                 </div>
             </section>
 
-            {/* Court Session Section */}
+            
             <section className="py-5 bg-white animate__animated animate__fadeInUp" id="court">
                 <div className="container">
                     <div className="row justify-content-center">
@@ -79,14 +79,14 @@ const LANDlandingpage = () => {
                             <div className="p-5 rounded shadow-lg text-center">
                                 <h2 className="mb-4 fw-bold text-success">Court Session</h2>
                                 <p className="mb-4 fs-5">Join our virtual court session for land dispute resolution and legal advice.</p>
-                                <button className="btn btn-primary btn-lg animate__animated animate__bounce">Join Court Session</button>
+                                <Link to="/Court" className="btn btn-primary btn-lg animate__animated animate__bounce">Join Court Session</Link>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* Animated Statistics Section */}
+            
             <section className="py-5 bg-light animate__animated animate__fadeInUp">
                 <div className="container">
                     <h2 className="text-center mb-5 fw-bold fs-1 text-success">Our Impact</h2>
@@ -111,7 +111,7 @@ const LANDlandingpage = () => {
                 </div>
             </section>
 
-            {/* Testimonials Section */}
+            
             <section className="py-5 bg-white animate__animated animate__fadeInUp">
                 <div className="container">
                     <h2 className="text-center mb-5 fw-bold fs-1 text-success">Testimonials</h2>
@@ -144,7 +144,7 @@ const LANDlandingpage = () => {
                 </div>
             </section>
 
-            {/* FAQ Section */}
+            
             <section className="py-5 bg-light animate__animated animate__fadeInUp">
                 <div className="container">
                     <h2 className="text-center mb-5 fw-bold fs-1 text-success">Frequently Asked Questions</h2>
@@ -183,7 +183,7 @@ const LANDlandingpage = () => {
                 </div>
             </section>
 
-            {/* Team Section */}
+            
             <section className="py-5 bg-white animate__animated animate__fadeInUp">
                 <div className="container">
                     <h2 className="text-center mb-5 fw-bold fs-1 text-success">Meet the Team</h2>
@@ -220,7 +220,7 @@ const LANDlandingpage = () => {
             </section>
 
 
-            {/* Newsletter Signup Section */}
+            
             <section className="py-5 bg-white animate__animated animate__fadeInUp">
                 <div className="container">
                     <h2 className="text-center mb-4 fw-bold fs-1 text-success">Stay Updated</h2>
@@ -235,7 +235,7 @@ const LANDlandingpage = () => {
                 </div>
             </section>
 
-            {/* Map Section */}
+            
             <section className="py-5 bg-light animate__animated animate__fadeInUp">
                 <div className="container">
                     <h2 className="text-center mb-4 fw-bold fs-1 text-success">Registered Lands Map</h2>
@@ -256,7 +256,7 @@ const LANDlandingpage = () => {
                 </div>
             </section>
 
-            {/* Contact Form Section */}
+            
             <section className="py-5 bg-white animate__animated animate__fadeInUp">
                 <div className="container">
                     <h2 className="text-center mb-4 fw-bold fs-1 text-success">Contact Us</h2>
@@ -273,7 +273,7 @@ const LANDlandingpage = () => {
                 </div>
             </section>
 
-            {/* Footer */}
+            
             <footer className="bg-success text-white py-5 mt-5 animate__animated animate__fadeInUp" id="footer">
                 <div className="container">
                     <div className="row">

@@ -62,7 +62,7 @@ const Land = () => {
                 textAlign: 'center'
             }}>
                 <Link to="/" style={{ textDecoration: 'none', color: '#4caf50',marginRight: '800px',fontSize: '1.5rem' }}>←</Link>
-                <h1 style={{ fontSize: '2.5rem', marginBottom: '32px', color: '#4caf50' }}>NaijaLand Verification Registration</h1>
+                <h1 style={{ fontSize: '2.5rem', marginBottom: '32px', color: '#4caf50' }}>Welcome to NaijaLand Verification Registration</h1>
                 <form onSubmit={handleRegister}>
                     <input
                         type="text"
