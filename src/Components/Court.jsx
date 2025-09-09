@@ -92,7 +92,7 @@ const Court = () => {
             </section>
 
             <footer className="fade-in glass-bg" style={{ textAlign: 'center', padding: '2rem 0', background: 'linear-gradient(90deg, #2d3748 60%, #3182ce 100%)', color: '#fff', marginTop: '3rem', fontWeight: 500, fontSize: '1.1rem', letterSpacing: '1px', borderRadius: '0 0 24px 24px', boxShadow: '0 -2px 24px #3182ce22' }}>
-                &copy; 2025 Land Court & Lawyer Portal. All rights reserved.
+                &copy; 2025 Land Court & Lawyer Portal. All rights reserved
             </footer>
         </div>
     );
